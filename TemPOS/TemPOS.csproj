@@ -62,7 +62,8 @@
     <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>TemPOS.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>Tempos.ico</ApplicationIcon>
@@ -590,15 +591,6 @@
     <Compile Include="VendorOrderControl.xaml.cs">
       <DependentUpon>VendorOrderControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="_TemPOS_DBDataSet.cs">
-      <DependentUpon>_TemPOS_DBDataSet.xsd</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="_TemPOS_DBDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>_TemPOS_DBDataSet.xsd</DependentUpon>
-    </Compile>
     <Page Include="CancelMadeUnmadeControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -1062,18 +1054,6 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
-    <None Include="TemPOS.pfx" />
-    <None Include="_TemPOS_DBDataSet.xsc">
-      <DependentUpon>_TemPOS_DBDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="_TemPOS_DBDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>_TemPOS_DBDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="_TemPOS_DBDataSet.xss">
-      <DependentUpon>_TemPOS_DBDataSet.xsd</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\Images\file.png" />
