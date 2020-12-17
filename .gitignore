@@ -36,6 +36,10 @@ x64/
 
 #ReSharper
 _ReSharper.*
+_TemPOS*
+
+**/obj/*
+**/bin/*
 
 *_i.c
 *_p.c
