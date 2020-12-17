@@ -1,4 +1,0 @@
-K:\Viipe.com\TemPOS\StringsExtractor\bin\Debug\StringsExtractor.exe
-K:\Viipe.com\TemPOS\StringsExtractor\bin\Debug\StringsExtractor.pdb
-K:\Viipe.com\TemPOS\StringsExtractor\obj\x86\Debug\StringsExtractor.exe
-K:\Viipe.com\TemPOS\StringsExtractor\obj\x86\Debug\StringsExtractor.pdb
