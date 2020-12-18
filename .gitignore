@@ -37,6 +37,7 @@ x64/
 #ReSharper
 _ReSharper.*
 _TemPOS*
+*.userprefs
 
 **/obj/*
 **/bin/*
